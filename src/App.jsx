@@ -64,7 +64,7 @@ function App() {
 
   return (
     <>
-      <main className="bg-[#dfdcdc] h-[94vh] lg:max-w-lg lg:mx-auto flex items-center flex-col justify-center rounded-lg relative">
+      <main className="bg-[#dfdcdc] h-[94vh] lg:max-w-lg lg:mx-auto flex items-center flex-col justify-center rounded-lg relative px-8">
         {tenzies && <Confetti />} {/* Render Confetti if tenzies is true */}
         <h1 className="text-4xl font-black">Tenzies</h1>
         <p className="text-xl px-20 mt-4 break-all ">
