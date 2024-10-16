@@ -36,7 +36,7 @@ To get started with the Tenzies game, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/tenzies-game.git
+   git clone "https://github.com/omarnate1/tenzies"
 
    ```
 
@@ -71,7 +71,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### Instructions:
 
-- Replace `https://github.com/yourusername/tenzies-game.git` with the actual URL of your GitHub repository.
+- Replace `https://github.com/omarnate1/tenzies` with the actual URL of your GitHub repository.
 - You can also customize any sections to better fit your project's specifics.
 
 This README provides a clear overview of the project and guides users through the installation and usage process.
