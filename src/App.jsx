@@ -67,15 +67,15 @@ function App() {
       <main className="bg-[#dfdcdc] h-[94vh] lg:max-w-lg lg:mx-auto flex items-center flex-col justify-center rounded-lg relative px-8">
         {tenzies && <Confetti />} {/* Render Confetti if tenzies is true */}
         <h1 className="text-4xl font-black">Tenzies</h1>
-        <p className="text-xl px-20 mt-4 break-all ">
+        <p className="text-xl  mt-4 break-all ">
           Roll until all dice are the same. Click each die to freeze it at its
           current value between rolls.
         </p>
-        <div className="grid grid-cols-5 grid-rows-2 gap-5 mt-14">
+        <div className="grid grid-cols-5 grid-rows-2 gap-4 mt-14">
           {dieElements}
         </div>
         <button
-          className="mt-16 bg-blue-600 p-5 rounded-xl font-extrabold text-white active:shadow-inset-active cursor-pointer"
+          className="mt-12 bg-blue-600 p-5 rounded-xl font-extrabold text-white active:shadow-inset-active cursor-pointer"
           onClick={rollDice}
         >
           {tenzies ? "New Game" : "Roll Dice"}
